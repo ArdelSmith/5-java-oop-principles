@@ -71,7 +71,6 @@ public class Tests {
         Seconds seconds = TimeUnitUtils.toSeconds(new Milliseconds(1500));
         testTimeUnit(seconds, 2000, 2, 0);
     }
-
     @Test
     public void testUtils2() {
         Seconds seconds = TimeUnitUtils.toSeconds(new Milliseconds(1499));
